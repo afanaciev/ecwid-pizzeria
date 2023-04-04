@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.3'
+gem 'rails', '6.1.7.3'
 gem 'ipizza', '0.4.4'
 
 group :production do
@@ -8,7 +8,7 @@ group :production do
 end
 
 group :development, :test do
-  gem 'mysql2'
-  gem 'rspec-rails', '2.2'
+  gem 'mysql2', '>= 0.2.12'
+  gem 'rspec-rails', '2.2.1'
   gem 'factory_girl_rails', '1.0'
 end
